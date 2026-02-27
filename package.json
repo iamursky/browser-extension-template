@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "browser-extension-template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.3.0",
+    "@eslint/js": "10.0.1",
+    "@tailwindcss/vite": "4.2.1",
+    "@types/node": "25.3.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "10.0.2",
+    "globals": "17.3.0",
+    "prettier": "3.8.1",
+    "prettier-plugin-tailwind-css": "1.5.0",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.56.1",
+    "vite": "7.3.1",
+    "vite-plugin-zip-pack": "1.2.4"
+  }
+}
